@@ -1,0 +1,27 @@
+{
+  "name": "lost-found",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.2.3",
+    "axios": "^1.7.2",
+    "echarts": "^5.5.0",
+    "font-awesome": "^4.7.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-echarts": "^6.7.3",
+    "vue-router": "^4.3.0",
+    "vue3typed": "^0.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.77.5",
+    "vite": "^5.2.8"
+  }
+}

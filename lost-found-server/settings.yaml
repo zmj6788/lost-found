@@ -1,0 +1,29 @@
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  config: ?charset=utf8mb4&parseTime=True&loc=Local
+  db: lost_found_db
+  user: root
+  password: "123456"
+  log_level: dev
+system:
+  host: 0.0.0.0
+  port: 8080
+  env: release
+logger:
+  level: info
+  prefix: '[lost-found]'
+  director: log
+  show_line: true
+  log_in_console: true
+qi_niu:
+  enable: false
+  access_key: UZOwq0yrXuFt03vI-Be6C80h2Zvg-yNyXa0jEQ0T
+  secret_key: ToRD6VYNiBngPULYrnE4_tq0zhxCu1DUM0WtZ8Wp
+  bucket: zmj99
+  cdn: se9wbeejz.hn-bkt.clouddn.com
+  zone: z2
+  size: 5
+upload:
+  size: 5
+  path: uploads/file/
